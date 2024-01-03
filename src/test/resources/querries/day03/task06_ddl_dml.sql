@@ -6,8 +6,8 @@ CREATE TABLE scrumteam (
                            empId NUMBER PRIMARY KEY,           -- NULL is not allowed and CANNOT be duplicate
                            firstname varchar(30) NOT NULL,     -- CANNOT BE NULL
                            jobtitle varchar(20) NOT NULL,      -- CANNOT BE NULL
-                           age INTEGER,                        -- There is no Constraints. Meaning it can be NUL and DUPLICATE
-                           salary INTEGER                      -- There is no Constraints. Meaning it can be NUL and DUPLICATE
+                           age INTEGER,                        -- There is no Constraints. Meaning it can be NULL and DUPLICATE
+                           salary INTEGER                      -- There is no Constraints. Meaning it can be NULL and DUPLICATE
 );
 DROP TABLE scrumteam;
 SELECT * FROM scrumteam;
