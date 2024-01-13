@@ -1,6 +1,8 @@
 package io.loopcamp.jdbctest.day01;
 
-import org.junit.jupiter.api.Test;
+
+
+import org.junit.Test;
 
 import java.sql.*;
 import java.util.ArrayList;
