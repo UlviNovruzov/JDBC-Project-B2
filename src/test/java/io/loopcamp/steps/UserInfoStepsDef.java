@@ -29,7 +29,7 @@ public class UserInfoStepsDef {
     }
 
 
-    //TODO:  We still need implement this more
+
     @Then("verify the below columns are listed in result for")
     public void verify_the_below_columns_are_listed_in_result_for(List<String> expectedList) {
         assertEquals(expectedList, actualList);

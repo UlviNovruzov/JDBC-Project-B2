@@ -45,7 +45,7 @@ commit;
 
 commit;
 
--- This will give an issue because the query does not know from WICH table it needs to get the address_id column since both have it.
+-- This will give an issue because the query does not know from WHICH table it needs to get the address_id column since both have it.
 SELECT first_name, last_name, address, phone, address_id
 FROM CUSTOMER INNER JOIN ADDRESS ON CUSTOMER.address_id = ADDRESS.address_id;
 

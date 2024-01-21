@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "io/loopcamp/steps",
         dryRun = false,
-        tags = "",
+        tags = "@uln1",
         monochrome = false
 
 )

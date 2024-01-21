@@ -1,6 +1,6 @@
 @test02
 Feature: As a data consumer, I want UI user account to be in DB.
-  @ui@db
+  @uln1
   Scenario: verify UI user total account count matches in DB
     Given the "advisor" on the home page
     And the user navigates to "Users" page

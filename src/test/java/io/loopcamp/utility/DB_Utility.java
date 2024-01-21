@@ -164,7 +164,7 @@ public class DB_Utility {
         String cellValue = "" ;
         try {
             rs.absolute(rowNum) ;
-            cellValue = rs.getString(columnIndex ) ;
+            cellValue = rs.getString(columnIndex) ;
         } catch (Exception e) {
             System.out.println("ERROR OCCURRED WHILE getCellValue " + e.getMessage() );
         }finally {
