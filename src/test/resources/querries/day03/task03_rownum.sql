@@ -7,7 +7,7 @@ WHERE rownum < 6
 order by SALARY DESC;
 
 
-;
+
 
 
 

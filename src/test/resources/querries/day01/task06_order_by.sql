@@ -1,5 +1,8 @@
 SELECT * FROM EMPLOYEES;
 
+SELECT COUNT(DEPARTMENT_ID) FROM EMPLOYEES
+where DEPARTMENT_ID = 80;
+
 /*
  ORDER BY allows us to sort the data based on the provided column name
  it can be sorted ascending or descending order
